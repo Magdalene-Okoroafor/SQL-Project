@@ -85,5 +85,5 @@ SELECT MIN(SickLeaveHours) AS MinSickLeaveHours,
 
 ### References
 
-[AdventureWorks.bak Dataset]([https://docs.google.com/spreadsheets/d/148gzCAxQno4wlIj_tzgUIyDTG8y4ifRr/edit?](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver17&tabs=ssms)usp=sharing&ouid=107969485968939728677&rtpof=true&sd=true)
+[AdventureWorks.bak Dataset](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-)ver17&tabs=ssms)usp=sharing&ouid=107969485968939728677&rtpof=true&sd=true)
  
