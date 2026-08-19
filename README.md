@@ -39,6 +39,7 @@ Exercise 1: Select the job titles of all single male employees
   AND MaritalStatus != 'M'; 
 </pre>
 
+<img width="612" height="211" alt="Screenshot 2026-08-19 011253" src="https://github.com/user-attachments/assets/b3fd5dfb-dac4-46df-9275-9843e29f1d5a" />
 
 
 Exercise 2: Select employees whose pay rate is 50 or more 
@@ -49,6 +50,7 @@ Exercise 2: Select employees whose pay rate is 50 or more
   WHERE Rate >= 50;
 </pre>
 
+<img width="612" height="211" alt="Screenshot 2026-08-19 011253" src="https://github.com/user-attachments/assets/ca8f9589-816e-45e2-8c33-10b38642c32a" />
 
 
 Exercise 3: Select employees with their departments and shifts 
@@ -62,6 +64,8 @@ JOIN HumanResources.Shift AS s
 ON edh.ShiftID = s.ShiftID; 
 </pre>
 
+<img width="261" height="274" alt="Screenshot 2026-08-19 012321" src="https://github.com/user-attachments/assets/6325ae73-f14e-4638-b71f-29def5777b59" />
+
 
 Exercise 4: Select the highest and lowest sick leave hours 
 
@@ -70,6 +74,7 @@ SELECT MIN(SickLeaveHours) AS MinSickLeaveHours,
   MAX(SickLeaveHours) AS MaxSickLeaveHours 
   FROM HumanResources.Employee;
 </pre>
+<img width="285" height="96" alt="Screenshot 2026-08-19 012641" src="https://github.com/user-attachments/assets/0bd18283-944d-497c-a871-8d9fb9016f0f" />
 
 
 
