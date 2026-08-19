@@ -11,6 +11,11 @@
 
 This Data Analysis Project aims to extract actionable business intelligence from the AdventureWorks2022 dataset, which models the global operational, manufacturing, and commercial footprint of a multinational bicycle manufacturing enterprise. By querying multi-domain tables across sales history, product manufacturing, vendor purchasing, and human resource distributions, this project aims to uncover operational bottlenecks, isolate high-margin consumer trends, and reveal critical purchasing patterns required to optimize corporate supply chain and revenue channels.
 
+### Data Import
+
+Move the File to the SQL Server Backup DirectorySQL Server requires strict security permissions to view files. To prevent permission errors during import, move the file from your Downloads folder into SQL Server's default directory:Copy the downloaded AdventureWorks2022.bak file.Navigate to your local SQL Server instance backup folder. For standard default installations of SQL Server 2022, the path is:C:\Program Files\Microsoft SQL Server\MSSQL16.MSSQLSERVER\MSSQL\BackupPaste the file into this folder. Provide Administrator permission if prompted.
+
+
 ### Tools
 
 The tool used for this analysis is Microsoft SQL Server Management Studio (SSMS), for querying the database, writing queries, creating views, and extracting insights; and Power BI, for data visualization (connected using views).
@@ -39,7 +44,7 @@ Exercise 1: Select the job titles of all single male employees
   AND MaritalStatus != 'M'; 
 </pre>
 
-<img width="612" height="211" alt="Screenshot 2026-08-19 011253" src="https://github.com/user-attachments/assets/b3fd5dfb-dac4-46df-9275-9843e29f1d5a" />
+<img width="247" height="277" alt="Screenshot 2026-08-19 011145" src="https://github.com/user-attachments/assets/9dd05c21-b4f4-432a-81c6-33739d4f5708" />
 
 
 Exercise 2: Select employees whose pay rate is 50 or more 
@@ -50,7 +55,7 @@ Exercise 2: Select employees whose pay rate is 50 or more
   WHERE Rate >= 50;
 </pre>
 
-<img width="612" height="211" alt="Screenshot 2026-08-19 011253" src="https://github.com/user-attachments/assets/ca8f9589-816e-45e2-8c33-10b38642c32a" />
+<img width="303" height="227" alt="image" src="https://github.com/user-attachments/assets/5b99acfd-bfb4-4842-b447-eedc9f587bac" />
 
 
 Exercise 3: Select employees with their departments and shifts 
